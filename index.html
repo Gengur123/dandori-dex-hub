@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dandori-Dex</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1d1d1f;--dim:#5e5e66;--line:#d8d8de;--link:#0b5cd5;--warn:#9a5b00}
+@media(prefers-color-scheme:dark){:root{--bg:#16161a;--fg:#ececf0;--dim:#a0a0aa;--line:#34343c;--link:#7ab0ff;--warn:#f0b050}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:46rem;margin:0 auto;padding:16px}
+h1{font-size:1.6rem;margin:.4em 0}
+h2{font-size:1.2rem;margin:1.6em 0 .4em;border-bottom:1px solid var(--line);padding-bottom:.2em}
+h3{font-size:1rem;margin:1.1em 0 .2em;text-transform:capitalize}
+a{color:var(--link);overflow-wrap:anywhere}
+ul{padding-left:1.2em;margin:.3em 0}
+li{margin:.2em 0}
+.dim,.path{color:var(--dim)}
+.path{font-size:.9rem;overflow-wrap:anywhere}
+.warn{color:var(--warn)}
+.rows{list-style:none;padding:0}
+.rows li{border-bottom:1px solid var(--line);padding:10px 0;display:flex;flex-wrap:wrap;gap:2px 16px}
+.rows .name{flex:1 1 12rem;font-weight:600}
+.rows .cell{flex:0 1 auto;color:var(--dim)}
+.rows .cell b{color:var(--fg);font-weight:500}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:rgba(128,128,128,.12);padding:12px;border-radius:6px;font:.85rem/1.45 ui-monospace,Consolas,monospace}
+code{font-family:ui-monospace,Consolas,monospace}
+details>summary{cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+<h1>Dandori-Dex</h1>
+<p class="dim">1 project. Add one with <code>dandori dex add &lt;folder&gt;</code>, then run <code>dandori dex build</code>.</p>
+<ul class="rows">
+<li><span class="name"><a href="naruto/index.html">naruto</a></span><span class="cell">Last commit <b>2026-10-18</b></span><span class="cell">Sprints <b>—</b></span><span class="cell warn">site not built</span></li>
+</ul>
+</main>
+</body>
+</html>
